@@ -4,7 +4,8 @@
   background-color: red;
   color: white;
   text-align: center;
-  order: 9;
+  margin: 2% 10%;
+  order: -1;
 }
 
 .container-2 {
@@ -13,7 +14,8 @@
   background-color: blue;
   color: white;
   text-align: center;
-  order: 2;
+  margin: 2% 10%;
+  order: -7;
 }
 
 .container-3 {
@@ -22,7 +24,8 @@
   background-color: red;
   color: white;
   text-align: center;
-  order: 2;
+  margin: 2% 10%;
+  order: -6;
 }
 
 .container-4 {
@@ -31,7 +34,8 @@
   background-color: black;
   color: white;
   text-align: center;
-  order: 2;
+  margin: 2% 10%;
+  order: -5;
 }
 
 .container-5 {
@@ -40,7 +44,8 @@
   background-color: orange;
   color: white;
   text-align: center;
-  order: -1;
+  margin: 2% 10%;
+  order: -9;
 }
 
 .container-6 {
@@ -49,7 +54,8 @@
   background-color: brown;
   color: white;
   text-align: center;
-  order: 2;
+  margin: 2% 10%;
+  order: -4;
 }
 
 .container-7 {
@@ -58,7 +64,8 @@
   background-color: green;
   color: white;
   text-align: center;
-  order: 2;
+  margin: 2% 10%;
+  order: -3;
 }
 
 .container-8 {
@@ -67,7 +74,8 @@
   background-color: aqua;
   color: white;
   text-align: center;
-  order: 2;
+  margin: 2% 10%;
+  order: -2;
 }
 
 .container-9 {
@@ -76,8 +84,12 @@
   background-color: aquamarine;
   color: white;
   text-align: center;
-  order: 1;
+  margin: 2% 10%;
+  order: -8;
 }
 
 .parent {
+  display: flex;
+  flex-flow: wrap row;
+  padding: 2%  10%;
 }

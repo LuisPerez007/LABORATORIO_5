@@ -1,74 +1,69 @@
 .container-1 {
-  width: 100px;
-  height: 100px;
   background-color: red;
   color: white;
   text-align: center;
+  display: grid;
+  grid-column: 1 / span 5;
 }
 
 .container-2 {
-  width: 100px;
-  height: 100px;
   background-color: blue;
   color: white;
   text-align: center;
+  grid-area: 2 / 1 / 4 / 3;
 }
 
 .container-3 {
-  width: 100px;
-  height: 100px;
   background-color: lightgreen;
   color: white;
   text-align: center;
+  grid-row: 2 / 4;
 }
 
 .container-4 {
-  width: 100px;
-  height: 100px;
   background-color: black;
   color: white;
   text-align: center;
+  grid-column: 4 / 6;
 }
 
 .container-5 {
-  width: 100px;
-  height: 100px;
   background-color: orange;
   color: white;
   text-align: center;
 }
 
 .container-6 {
-  width: 100px;
-  height: 100px;
   background-color: brown;
   color: white;
   text-align: center;
 }
 
 .container-7 {
-  width: 100px;
-  height: 100px;
   background-color: green;
   color: white;
   text-align: center;
+  display: grid;
 }
 
 .container-8 {
-  width: 100px;
-  height: 100px;
   background-color: aqua;
   color: white;
   text-align: center;
 }
 
 .container-9 {
-  width: 100px;
-  height: 100px;
+  display: grid;
+  grid-column: 1 / span 3;
   background-color: aquamarine;
   color: white;
   text-align: center;
+  grid-column: 3 / 6;
 }
 
 .parent {
+  padding: 0% 90% 0% 0%;
+  display: grid;
+  grid-template-columns: repeat(5, 100%);
+  grid-template-rows: repeat(4, 100%);
 }  
